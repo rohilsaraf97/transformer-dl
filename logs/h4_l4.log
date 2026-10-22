@@ -1,0 +1,26 @@
+[h4_l4] device=mps params=5,799,184 vocab=10000
+[h4_l4] epoch  1 |  18.5s | train  483.24 | val  488.01 | test  463.30 *
+[h4_l4] epoch  2 |  18.4s | train  228.76 | val  251.56 | test  238.15 *
+[h4_l4] epoch  3 |  18.5s | train  165.38 | val  198.19 | test  189.12 *
+[h4_l4] epoch  4 |  18.4s | train  133.40 | val  176.51 | test  166.51 *
+[h4_l4] epoch  5 |  18.6s | train  113.14 | val  164.17 | test  154.65 *
+[h4_l4] epoch  6 |  18.5s | train   99.20 | val  157.71 | test  147.97 *
+[h4_l4] epoch  7 |  18.4s | train   87.90 | val  150.53 | test  141.25 *
+[h4_l4] epoch  8 |  18.4s | train   79.38 | val  145.49 | test  136.47 *
+[h4_l4] epoch  9 |  18.4s | train   72.49 | val  142.55 | test  133.10 *
+[h4_l4] epoch 10 |  18.4s | train   66.85 | val  138.45 | test  129.26 *
+[h4_l4] epoch 11 |  18.4s | train   62.19 | val  135.27 | test  126.22 *
+[h4_l4] epoch 12 |  18.4s | train   59.07 | val  134.99 | test  125.83 *
+[h4_l4] epoch 13 |  18.4s | train   55.80 | val  132.96 | test  123.83 *
+[h4_l4] epoch 14 |  18.4s | train   53.12 | val  131.46 | test  122.86 *
+[h4_l4] epoch 15 |  18.5s | train   51.09 | val  130.76 | test  121.84 *
+[h4_l4] epoch 16 |  18.4s | train   49.42 | val  130.34 | test  121.10 *
+[h4_l4] epoch 17 |  18.4s | train   47.87 | val  129.74 | test  120.52 *
+[h4_l4] epoch 18 |  18.4s | train   47.05 | val  130.66 | test  121.08
+[h4_l4] epoch 19 |  18.4s | train   46.11 | val  129.85 | test  120.23
+[h4_l4] epoch 20 |  18.4s | train   45.39 | val  129.51 | test  119.93 *
+[h4_l4] epoch 21 |  18.4s | train   45.01 | val  129.24 | test  119.77 *
+[h4_l4] epoch 22 |  18.4s | train   44.75 | val  129.20 | test  119.76 *
+[h4_l4] epoch 23 |  18.5s | train   44.63 | val  129.36 | test  119.85
+[h4_l4] epoch 24 |  18.4s | train   44.56 | val  129.21 | test  119.74
+[h4_l4] epoch 25 |  18.4s | train   44.55 | val  129.22 | test  119.75
