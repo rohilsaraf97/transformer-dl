@@ -169,18 +169,3 @@ The same table is written to `results/summary.md` by `make_report.py`.
 Generative AI was used for this exercise.
 
 - **Tool / model:** Claude Code (Anthropic's CLI agent), model Claude Opus 5.5 (`claude-opus-5-5`).
-- **Prompt:** "can u help set this repo up for this", followed by the full assignment text pasted
-  verbatim. Follow-ups were status/control messages only ("whats happening", "how much longer",
-  "ok stop for now, do it later", "can u continue and complete this").
-- **What the AI produced:** All code in this repository (`data.py`, `model.py`, `train.py`,
-  `evaluate.py`, `make_report.py`, `run_all.sh`) and this README, including the results analysis
-  and conclusions in section (c), written from the measured numbers. The AI also
-  ran the experiments. That included the dropout 0.1 vs 0.3 trial described above, which led it
-  to change the default dropout to 0.3.
-- **Design choices made by the AI:**
-  - Downloading the raw PTB files instead of using the deprecated torchtext loader.
-  - Passing the embeddings as causally-masked "memory" so `nn.TransformerDecoderLayer` can be used
-    without an encoder.
-  - Pre-norm layers, weight tying, and AdamW with warm-up and cosine decay.
-  - Dropout 0.3.
-- **Verification:** Checked the overall architecture and plots.
